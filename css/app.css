@@ -1,0 +1,40 @@
+label{
+    white-space: nowrap;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    border-bottom:  solid 3px #838282;
+    margin-bottom: 25px;
+}
+
+header img {
+    margin-left: auto;
+    margin-right: 20px;
+    float: inline-end;
+    height: auto;
+    width: 10%;
+
+}
+
+h1{
+    color: #8d8d8d;
+    margin-top: auto;
+    align-self: flex-end;
+    margin-block: 0px;
+}
+
+#tab{
+    border-left: solid 1px #000;
+    border-right: solid 1px #000;
+    border-top: solid 1px #000;
+    margin: 3px;
+}
+
+#tab > div{
+    border-bottom: solid 1px #000;
+    padding-left: 3px;
+    padding-right: 3px;
+}

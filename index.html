@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire absence</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mb-2">
+            <div class="col">
+
+                <header>
+                    <h1>Autorisation d'Absence</h1>
+                    <img src="/assets/afpa_logo.jpg" alt="">
+                </header>
+            </div>
+        </div>
+        <form action="/" method="post">
+
+            <div class="row">
+                <div class="col">
+                    <div class="d-flex">
+
+                        <label for="lastname">NOM :</label>
+                        <input type="text" value="" id="lastname" required>
+
+                        <label class="ms-5" for="firstname">PRENOM :</label>
+                        <input type="text" value="" id="firstname" required>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col">
+                    <div>
+                        <label for="course">Formation suivie :</label>
+                        <input type="text" id="course" required>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col">
+                    <h4>Demande l'autorisation de s'absenter du centre :</h4>
+                    <span>Inférieur à une journée: </span>
+                    <label for="lessonedayyes"> oui </label>
+                    <input type="radio" name="lessoneday" id="lessonedayyes" value="yes" checked required>
+                    <label for="lessonedayno"> non </label>
+                    <input type="radio" name="lessoneday" id="lessonedayno" value="no" required>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+
+                <div class="col" id="onedaymissingcol">
+                    <div class="mx-auto">
+                        <label for="missingday">Le</label>
+                        <input type="date" name="missingday" id="missingday">
+                    </div>
+                    <div class="mt-4">
+                        <label for="beginhourmissingday">De</label>
+                        <input type="time" name="beginhourmissingday" id="beginhourmissingday">
+                        <label for="finishhourmissingday">à</label>
+                        <input type="time" name="finishhourmissingday" id="finishhourmissingday">
+                    </div>
+                </div>
+                <div class="col d-none" id="severaldaymissing">
+                    <label for="beginmissingperiod">Du</label>
+                    <input type="date" name="beginmissingperiod" id="beginmissingperiod">
+                    <label for="endmissingperiod">au</label>
+                    <input type="date" name="endmissingperiod" id="endmissingperiod">
+                    <div class="col mt-4">
+                        <label for="totalmissingdays">Soit</label>
+                        <input type="number" name="totalmissingdays" id="totalmissingdays" >
+                        <span>jours complets</span>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-2 row mt-4">
+                <div class="col">
+                    <label for="missingreason">Pour le motif suivant:</label>
+                    <input type="text" id="missingreason">
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-12 col-sm-6">
+                    <div id="tab">
+                        <div class="text-center fs-5 fw-bold">
+                            Motif de l'absence
+                        </div>
+
+                        <div>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sequi eligendi deserunt
+                            vero ad delectus, consequatur architecto! Vel, dolores aliquam.
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-sm-6">
+
+                    <p>Cachet et signature de l'entreprise ou de</p>
+                    <label for="namemissing">
+                        Merci d'apposer votre cachet pour justifier de l'absence de la formation de M
+                    </label>
+                    <input type="text" name="namemissing" id="namemissing">
+
+                </div>
+            </div>
+
+
+
+
+        </form>
+
+
+    </div>
+    <script src="script.js"></script>
+    <script src="sweetalert2.js"></script>
+
+</body>
+
+</html>

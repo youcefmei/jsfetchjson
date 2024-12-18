@@ -1,0 +1,243 @@
+{
+    "groups": [
+        {
+            "group_id": 1,
+            "group_name": "Retard absence non rémunéré",
+            "codes": [
+                {
+                    "code_id": 1,
+                    "code_name": "Retard absence non rémunéré",
+                    "reasons": [
+                        {
+                            "reason_id": 1,
+                            "reason_name": "Retard"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "group_id": 2,
+            "group_name": "Grève Afpa",
+            "codes": [
+                {
+                    "code_id": 4,
+                    "code_name": "Grève Afpa",
+                    "reasons": [
+                        {
+                            "reason_id": 2,
+                            "reason_name": "Grève Afpa"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "group_id": 3,
+            "group_name": "Maladie",
+            "codes": [
+                {
+                    "code_id": 5,
+                    "code_name": "Maladie",
+                    "reasons": [
+                        {
+                            "reason_id": 3,
+                            "reason_name": "Maladie"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "group_id": 4,
+            "group_name": "Absence légale",
+            "codes": [
+                {
+                    "code_id": 6,
+                    "code_name": "Absence légale",
+                    "reasons": [
+                        {
+                            "reason_id": 4,
+                            "reason_name": "Naissance ou adoption",
+                            "permit_day": 3
+                        },
+                        {
+                            "reason_id": 5,
+                            "reason_name": "Mariage",
+                            "permit_day": 4
+                        },
+                        {
+                            "reason_id": 6,
+                            "reason_name": "Mariage d'un enfant",
+                            "permit_day": 1
+                        },
+                        {
+                            "reason_id": 7,
+                            "reason_name": "Décès du conjoint ou du partenaire lié par un pacte civil de solidarité ou d'un enfant",
+                            "permit_day": 2
+                        },
+                        {
+                            "reason_id": 8,
+                            "reason_name": "Décès du père, de la mère, du beau père, de la belle-mère, d'un frère ou d'une soeur",
+                            "permit_day": 1
+                        },
+                        {
+                            "reason_id": 9,
+                            "reason_name": "Visite médicale obligatoire de la grossesse"
+                        },
+                        {
+                            "reason_id": 10,
+                            "reason_name": "Stagiaire élu membre du CA d'une caisse de sécurité sociale"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "group_id": 5,
+            "group_name": "Accident",
+            "codes": [
+                {
+                    "code_id": 20,
+                    "code_name": "Accident",
+                    "reasons": [
+                        {
+                            "reason_id": 11,
+                            "reason_name": "Accident travail sans arrêt"
+                        }
+                    ]
+                },
+                {
+                    "code_id": 21,
+                    "code_name": "Accident",
+                    "reasons": [
+                        {
+                            "reason_id": 12,
+                            "reason_name": "Accident travail avec arrêt"
+                        }
+                    ]
+                },
+                {
+                    "code_id": 30,
+                    "code_name": "Accident",
+                    "reasons": [
+                        {
+                            "reason_id": 13,
+                            "reason_name": "Accident trajet sans arrêt"
+                        }
+                    ]
+                },
+                {
+                    "code_id": 31,
+                    "code_name": "Accident",
+                    "reasons": [
+                        {
+                            "reason_id": 14,
+                            "reason_name": "Accident trajet avec arrêt"
+                        }
+                    ]
+                },
+                {
+                    "code_id": 40,
+                    "code_name": "Accident",
+                    "reasons": [
+                        {
+                            "reason_id": 15,
+                            "reason_name": "Accident travail hors Afpa sans arrêt"
+                        }
+                    ]
+                },
+                {
+                    "code_id": 41,
+                    "code_name": "Accident",
+                    "reasons": [
+                        {
+                            "reason_id": 16,
+                            "reason_name": "Accident travail hors Afpa avec arrêt"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "group_id": 6,
+            "group_name": "Absence autorisée non rémunérée",
+            "codes": [
+                {
+                    "code_id": 98,
+                    "code_name": "Absence autorisée non rémunérée",
+                    "reasons": [
+                        {
+                            "reason_id": 17,
+                            "reason_name": "Recherche PE"
+                        },
+                        {
+                            "reason_id": 18,
+                            "reason_name": "Recherche d'un emploi"
+                        },
+                        {
+                            "reason_id": 19,
+                            "reason_name": "Visite d'un salon"
+                        },
+                        {
+                            "reason_id": 20,
+                            "reason_name": "Enquête en entreprise"
+                        },
+                        {
+                            "reason_id": 21,
+                            "reason_name": "Visite d'un autre centre"
+                        },
+                        {
+                            "reason_id": 22,
+                            "reason_name": "RDV psychologue du travail"
+                        },
+                        {
+                            "reason_id": 23,
+                            "reason_name": "Rendez-vous POLE EMPLOI"
+                        },
+                        {
+                            "reason_id": 24,
+                            "reason_name": "Absence pour fêtes religieuses hors jours fériés légaux"
+                        },
+                        {
+                            "reason_id": 25,
+                            "reason_name": "Grève des transports"
+                        },
+                        {
+                            "reason_id": 26,
+                            "reason_name": "Intempéries"
+                        },
+                        {
+                            "reason_id": 27,
+                            "reason_name": "RDV avec le conseiller militaire"
+                        },
+                        {
+                            "reason_id": 28,
+                            "reason_name": "RDV avec le juge, Convocation au tribunal ou commissariat"
+                        },
+                        {
+                            "reason_id": 29,
+                            "reason_name": "Recherche de logement, RDV organismes divers"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "group_id": 7,
+            "group_name": "Absence non autoriséé non rémunérée",
+            "codes": [
+                {
+                    "code_id": 99,
+                    "code_name": "Absence non autorisée non rémunérée",
+                    "reasons": [
+                        {
+                            "reason_id": 30,
+                            "reason_name": "Absence non justifiée"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
