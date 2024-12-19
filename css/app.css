@@ -1,12 +1,30 @@
-label{
+label {
     white-space: nowrap;
+    margin-bottom: 0px !important;
+
+    padding-top: 10px;
+}
+
+.pristine-error{
+    color: red;
+    /* justify-self: center;
+    align-self: center; */
 }
 
 
-header{
+input{
+    /* padding: 0; */
+    /* margin-left: 15px ; */
+}
+
+#tab>div>div>div>label {
+    white-space: normal;
+}
+
+header {
     display: flex;
     flex-direction: row;
-    border-bottom:  solid 3px #838282;
+    border-bottom: solid 3px #838282;
     margin-bottom: 25px;
 }
 
@@ -19,22 +37,42 @@ header img {
 
 }
 
-h1{
+h1 {
     color: #8d8d8d;
     margin-top: auto;
     align-self: flex-end;
     margin-block: 0px;
 }
 
-#tab{
+#tab {
     border-left: solid 1px #000;
     border-right: solid 1px #000;
     border-top: solid 1px #000;
     margin: 3px;
 }
 
-#tab > div{
+#tab>div {
     border-bottom: solid 1px #000;
     padding-left: 3px;
     padding-right: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+#tab>div>label,div>span {
+    font-weight: bold;
+}
+
+
+
+#tab > div > div > div > label{
+    padding-top: 0px;
+}
+
+
+.form-check-input {
+    border : solid 1px #555454 ;
+    margin-top: 0 !important;
+
 }
